@@ -1,0 +1,14 @@
+
+:global(.ReactModalPortal > div ){
+  opacity: 0;
+}
+:global(.ReactModalPortal .ReactModal__Overlay) {
+  transition: opacity .1s linear;
+  background: rgba(0, 0, 0, 0.15);
+}
+:global(.ReactModalPortal .ReactModal__Overlay--after-open) {
+  opacity: 1;
+}
+:global(.ReactModalPortal .ReactModal__Overlay--before-close) {
+  opacity: 0;
+}

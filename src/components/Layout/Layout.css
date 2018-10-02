@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Iransans';
+  src:
+     local('Iransans'),
+     url(./fonts/iransans.eot?#iefix) format("embedded-opentype"),
+     url(./fonts/iransans.woff) format("woff");
+     font-weight: normal;
+     font-style: normal
+}
+
+html {
+  font-family: 'Iransans', sans-serif;
+}
